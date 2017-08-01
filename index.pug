@@ -1,0 +1,21 @@
+html
+  head 
+    link(href='https://fonts.googleapis.com/css?family=Libre+Baskerville:700', rel='stylesheet')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', rel='stylesheet')
+     
+    
+  body.container-fluid.text-center 
+    hr
+    img(src="https://rawgit.com/bomholt/fcc-portfolio/master/_assets/CODEPEN/wikipedia_viewer/wikipedia_init.png", class="logo")
+    #searchbox
+     input#searchitem(type='text', placeholder="Search")
+    #buttons
+     button#opensearch.btn.btn-primary(onclick='wikisearch()')   
+      i.fa.fa-search(aria-hidden='true') &nbspSearch
+     a(href='https://en.wikipedia.org/wiki/Special:Random') 
+      button.btn.btn-info(onclick='random()')  
+       i.fa.fa-random(aria-hidden='true') &nbspRandom
+    #content   
+    

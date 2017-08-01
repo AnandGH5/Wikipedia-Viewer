@@ -1,0 +1,38 @@
+html,body{
+  min-height:100%;
+}
+img{
+  width:470px;
+}
+@media screen and (max-width: 500px){
+  img{
+     width:280px;
+    }
+}
+
+#buttons
+{
+  margin-top:2vh;
+}
+
+p{
+  margin:2% !important;
+  background-color:#ecf0f1;
+  text-align:left;
+  padding:3%;
+}
+#head{
+  text-decoration:underline;
+  font-size:1.3em;
+  color:#3A539B;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.btn
+{
+  outline:none;
+}
+
+#searchitem{
+  border-radius: 3px;
+}
